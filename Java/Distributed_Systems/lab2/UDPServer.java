@@ -18,7 +18,7 @@ public class UDPServer {
 
             System.out.println("Server Running...");
 
-            // Receive respond
+            // Receive response
             byte[] buffer = new byte[1024];
             DatagramPacket respond = new DatagramPacket(buffer, buffer.length);
             socket.receive(respond);
@@ -26,7 +26,7 @@ public class UDPServer {
             String message = new String(respond.getData(), 0, respond.getLength());
             System.out.println("Received : " + message);
 
-            // Send respond back
+            // Send it back
             DatagramPacket request = new DatagramPacket(message.getBytes(), message.length(), respond.getAddress(), respond.getPort());
             socket.send(request);
 

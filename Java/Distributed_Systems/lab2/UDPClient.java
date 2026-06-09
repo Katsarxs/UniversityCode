@@ -4,9 +4,9 @@ import java.net.*;
 import java.io.*;
 
 /*
- * UDP Client sends message to server and receives the same back.
+ * UDP Client sends a message to the server and receives the same back.
  * Usage: java UDPClient <Message>
- * For example : java UDPClient hello
+ * For example: java UDPClient hello
  */
 
 public class UDPClient {

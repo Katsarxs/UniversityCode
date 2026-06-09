@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 
 public class EchoClient {
-    private static final int PORT = 8080;
+    private static final int PORT = 5555;
 
     public static void main(String[] args) {
         try {
@@ -30,10 +30,10 @@ public class EchoClient {
 
             // Show remote address and port
             System.out.println("Sending messages to the server...");
-            System.out.println("Connecting to " + sock.getInetAddress() + " and port " + sock.getPort());
+            System.out.println("Address : " + sock.getInetAddress() + " Port : " + sock.getPort());
 
             // Show local address and port
-            System.out.println("Local Address " + sock.getLocalAddress() + " and port " + sock.getLocalPort());
+            System.out.println("Local Address " + sock.getLocalAddress() + " Local Port : " + sock.getLocalPort());
 
             while (true) {
                 System.out.print("Write what the client will send: ");

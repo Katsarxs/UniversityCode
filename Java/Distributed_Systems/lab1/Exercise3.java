@@ -2,8 +2,8 @@ package lab1;
 
 import java.io.*;
 
-/* Fixing code what couldn't write objects to file
- * Key changes :
+/* Fixing code that couldn't write objects to file
+ * Key changes:
  * Add try catch
  * Implement Serializable in Character class*/
 
