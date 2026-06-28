@@ -1,0 +1,18 @@
+import java.io.Serializable;
+
+public enum Operation implements Serializable {
+    ADD_DOCTOR,
+    GET_DOCTORS,
+    ADD_SCHEDULE,
+    UPDATE_SCHEDULE,
+    DELETE_SCHEDULE,
+    GET_SCHEDULES,
+    GET_SCHEDULE,
+    SEARCH_SCHEDULES,
+    BOOK_APPOINTMENT,
+    CANCEL_APPOINTMENT,
+    GET_USER_APPOINTMENTS,
+    GET_APPOINTMENTS_BY_SCHEDULE,
+    ADD_REVIEW,
+    GET_DOCTOR_REVIEWS
+}
