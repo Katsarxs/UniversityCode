@@ -22,6 +22,7 @@ Basically, this is a project which I include all the code-based programs I'm req
 ## Project List
 
 A list of the most interesting projects.
+- [Flight Management](Java/Web_Programming/FlightManagement) : A web app for managing flights for an airline company made in Java with MVC architecture (Model-View-Controller) using Jakarta Servlets, DAOs (Data Access Object) and JSP (JavaServer Page) files.
 - [Digital Library Server](Java/Distributed_Systems/Library) : A client-server application that simulates a library management system using Java sockets for communication.
 - [Tabloid 2 Python](ANTLR/Tabloid2Python) : S2S (Source-To-Source) compiler which turns fun programming language Tabloid into Python code using ANTLR (ANother Tool for Language Recognition).
 - [Memory Game](Java/Lab_Exercises/MemoryGame) : A simple card memory game built in Java using Swing, where players match pairs of hidden cards.
